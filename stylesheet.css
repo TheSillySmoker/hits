@@ -36,7 +36,11 @@ hr.rounded {
     font-size: 12px;
   }
 
-
+  hr.small-width{
+    width:10%;
+ 
+  
+  }
 
 .resize {
     width: 30px;
