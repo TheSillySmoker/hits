@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(48, 48, 48);
+
+}
+.topbackground{
+    background-color: #0E67B4;
+    border-radius: 5px
+}
+.logo{
+  max-width: vw2;
+  height: auto
+}
+h1{
+    color: #F7F3E8;
+text-align: center;
+font-family: 'Quicksand';
+font-size: 5vw;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    background-color: coral;
+  }
+  p{
+    color: #F7F3E8;
+    text-align: center;
+    font-family: 'Quicksand';font-size: 22px;
+    font-size: 12px;
+  }
+
+
+
+.resize {
+    width: 30px;
+    height: auto;
+}
+
+top{
+    display: block; text-align: center;
+}
+
+@media (max-width: 1000px) {
+
+    h1 {
+          text-align: center;
+     }
+     img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+}
