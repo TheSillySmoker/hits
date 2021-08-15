@@ -53,8 +53,11 @@ top{
           text-align: center;
      }
      .logo{
-      max-width: vw2;
-      width: 20%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  
       height: auto
      }
 
