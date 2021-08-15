@@ -6,22 +6,45 @@ body{
     background-color: #0E67B4;
     border-radius: 5px
 }
-.logo{
-  max-width: vw2;
-  width: 50%;
-  height: auto
+img.logo{
+  
+  width: 40%;
+  height: auto;
+  padding-top: 0px;
+  padding-left: 30px;
 }
-h1{
+
+img.under-logo{
+  
+  width: 100%;
+  height: auto;
+
+
+  }
+
+h1.slogan{
     color: #F7F3E8;
-text-align: center;
+   text-align: center;
+padding-left: 43%;
 font-family: 'Quicksand';
 font-size: 5vw;
 
 }
 .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 16.33%;
+  padding: 5px;
 }
 
 hr.rounded {
@@ -37,7 +60,9 @@ hr.rounded {
   }
 
   hr.small-width{
-    width:10%;
+    width:30%;
+    margin-left: 55%;
+    margin-top: 5%;
  
   
   }
